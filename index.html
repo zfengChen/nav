@@ -1,0 +1,82 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="theme-color" content="#0E474C">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>mubaiの导航站</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta property="og:type" content="website">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/archive.css">
+    <link rel="stylesheet" href="css/china-social-icon.css">
+    <style>
+        body {
+            padding: 0;
+            margin: 0;
+            overflow: hidden;
+            height: 600px;
+        }
+
+        canvas {
+            padding: 0;
+            margin: 0;
+        }
+
+        div.btnbg {
+            position: fixed;
+            left: 0;
+            top: 0;
+        }
+
+        .panel-cover {
+            background: url(https://www.ipicbed.com/images/2022/01/27/21dcbc47444ab.jpg) no-repeat center;
+            background-size: cover;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <!--移动端上导航栏-->
+    <span class="mobile btn-mobile-menu">
+        <i class="icon icon-list btn-mobile-menu__icon"></i>
+        <i class="icon icon-x-circle btn-mobile-close__icon hidden"></i>
+    </span>
+
+    <header class="panel-cover">
+        <!--主框架-->
+        <div class="panel-main">
+            <div class="panel-main__inner panel-inverted">
+                <h1 class="panel-cover__title panel-title"><a href="javascript:;" title="link to homepage">mubaiの导航站</a></h1>
+                <hr class="panel-cover__divider" />
+                <p class="panel-cover__description">The important thing in life isn't the destination. It's the journey.</p>
+                <hr class="panel-cover__divider panel-cover__divider--secondary" />
+                <!--移动端上导航项目-->
+                <div class="navigation-wrapper">
+                    <nav class="cover-navigation cover-navigation--primary">
+                        <ul class="navigation">
+                            <li class="navigation__item"><a href="https://www.mubai.xyz" title="" class="">博客</a>
+                            </li>
+                            <li class="navigation__item"><a href="https://gitee.com/DFmubai" title="" class="">gitee</a>
+                            </li>
+                            <li class="navigation__item"><a href="https://github.com/zfengChen" title="" class="">github</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
